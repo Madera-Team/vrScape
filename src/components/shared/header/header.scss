@@ -1,0 +1,59 @@
+@import '../../../styles/common/setting.scss';
+
+.header-cont{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    // background-image: linear-gradient(to bottom, rgba(48, 208, 208, 0.329) 0%, rgba(51, 8, 103, 0.74) 100%), url("/public/assets/img/1.png");
+    // background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/public/assets/img/1.png");
+    background-image: linear-gradient(to bottom, rgba(115, 171, 171, 0.33) 0%, rgba(152, 124, 186, 0.74) 100%), url("/public/assets/img/1.png");
+    background-size: cover;
+    background-position: center top;
+    .menu-cont{
+        position: absolute;
+        top: 0;
+        left: 0;
+
+       
+    }
+
+    .header-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+        h1{
+            color: #fff;
+            font-size:6vw;
+        }
+    
+        .btn-cont{
+            width: 100%;
+            display: flex;
+            margin-top: 1em;
+            justify-content: space-between;
+            button{
+                width: calc(50% - 20px);
+                height: 55px;
+                border-radius: 99px;
+                background-color: $vr-secundary-dark;
+                border: none;
+                color: #fff;
+                font-size: 16px;
+                font-weight: bold;
+                cursor: pointer;
+
+                &:hover{
+                    background-color: lighten($color: $vr-secundary-dark, $amount: 3%);
+                }
+            }
+        }
+    }
+
+   
+}

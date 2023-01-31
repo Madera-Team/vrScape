@@ -1,8 +1,16 @@
+
+import './documentation.scss';
+import { OculusControl } from './imagesSvg/OculusControl';
+
 export const Documentation = () => {
 
     return(
         <>
-        <h1>Hola documentation tal</h1>
+        <div className="documentation-cont">
+            <div className="control-info-cont">
+        <OculusControl/>
+            </div>
+        </div>
         </>
     )
 }

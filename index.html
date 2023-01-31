@@ -5,6 +5,36 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React</title>
+    <style>
+      @font-face {
+       font-family: "RobotoRegular";
+       src: local('RobotoRegular'),
+       url(assets/fonts/Roboto-Regular.ttf);
+      }
+      @font-face {
+       font-family: "RobotoMedium";
+       src: local('RobotoMedium'),
+       url(assets/fonts/Roboto-Medium.ttf);
+      }
+      @font-face {
+       font-family: "RobotoBold";
+       src: local('RobotoBold'),
+       url(assets/fonts/Roboto-Bold.ttf);
+      }
+      @font-face {
+       font-family: "RobotoThin";
+       src: local('RobotoThin'),
+       url(assets/fonts/Roboto-Thin.ttf);
+      }
+
+      *{
+        font-family: RobotoRegular;
+      }
+
+      h1, h2, h3{
+        font-family: RobotoBold;
+      }
+    </style>
   </head>
   <body>
     <div id="root"></div>
