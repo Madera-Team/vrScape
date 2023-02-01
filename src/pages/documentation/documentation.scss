@@ -1,3 +1,19 @@
 .oculus-control-color{
-    fill: pink;
+    stroke: #fff;
+  
+}
+.oculus-control-color-fill{
+    fill: #fff;
+}
+
+.control-info-cont{
+    background-image: linear-gradient(to bottom, rgb(115, 171, 171) 0%, rgb(152, 124, 186) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+
+    svg{
+        width: 90%;
+    }
 }
