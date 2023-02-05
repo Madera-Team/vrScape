@@ -2,9 +2,13 @@
 
 .menu-cont{
     display: flex;
-    background-color:$vr-dark-violet;
+    background-color:$vr-dark-violet-transparent;
     padding: 0.8em;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    width: 100%;
 
     .menu-right{
         display: flex;
@@ -13,7 +17,9 @@
     .menu-link{
         margin: 0 0.5em;
         font-weight: bolder;
-
+        a{
+            text-decoration: none;
+        }
         p{
             color: #fff;
         }

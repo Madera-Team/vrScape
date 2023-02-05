@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { faqs } from "../../../api/faq"
+import { faqs } from "../../../api/faq/faq"
 import './faqs.scss';
 
 export const Faqs = () => {
