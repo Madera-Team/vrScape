@@ -7,10 +7,10 @@
     margin: 2em auto;
     justify-content: space-around;
     align-items: flex-start;
-
+   
     .rankig-item{
         width: 250px;
-        height: 120px;
+        height: 220px;
         padding: 1em;
         border-radius: 12px;
         background-color: $vr-pale-violet;
@@ -20,8 +20,18 @@
         align-items:  flex-start;
         margin-bottom: 1em;
 
+        .ranking-item-header{
+            height: 100px;
+            width: calc(100% + 2em);
+            margin: -1em 0 auto -1em;
+            background-position: center;
+            background-size: cover;
+        }
+
         .rankig-item-section{
             margin-bottom: 0.6em;
+
+            
         }
     }
 }

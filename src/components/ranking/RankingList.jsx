@@ -77,6 +77,7 @@ export const RankingList = () => {
                 </div>
 
                 <div>
+
                     {
                         isLoading ?
                             <h1>Loading</h1>
