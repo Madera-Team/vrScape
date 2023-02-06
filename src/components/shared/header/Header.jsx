@@ -11,7 +11,7 @@ export const Header = () => {
 
     <h1>VR Escape</h1>
     <div className="btn-cont">
-        <button>TRY IT!</button>
+        <button>TRAILER</button>
         <button>ABOUT US</button>
     </div>
 </div>

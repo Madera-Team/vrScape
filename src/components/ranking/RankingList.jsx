@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { useContext } from "react";
-import { useState } from "react";
 import { RankingContext } from "../../context/ranking";
 
 import "./ranking.scss";
@@ -24,6 +23,7 @@ export const RankingList = () => {
   }, []);
   return (
     <>
+   
       <section className="ranking-cont">
         {ranking.map((ranking, index) => (
           <div className="ranking-content" key={index}>
@@ -41,6 +41,7 @@ export const RankingList = () => {
           </div>
         ))}
       </section>
+      <h1 className="ranking-title">Are you among the fastest?</h1>
     </>
   );
 };

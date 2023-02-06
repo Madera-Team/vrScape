@@ -1,12 +1,20 @@
 @import '../../styles/common/setting.scss';
-
+.ranking-title{
+    margin: 3em auto 2em auto;
+    text-align: center;
+    width: 80%;
+    text-transform: uppercase;
+    color: #8c8c95;
+}
 .ranking-cont{
     display: flex;
     width: 80%;
     max-width: 1450px;
-    margin: 2em auto;
+    margin: -3em auto 2em auto;
     justify-content: center;
     align-items: flex-start;
+    position: relative;
+    z-index: 4;
 
     .ranking-content{
         background-color: #fff;
@@ -15,6 +23,7 @@
         height: 400px;
         padding: 1em;
         margin:0 3em;
+        box-shadow: 0px 4px 20px rgba(82, 76, 192, 0.315);
     }
     .ranking-item-header{
         height: 100px;
@@ -43,6 +52,7 @@
         margin: 0.6em 0;
         padding-bottom: 0.6em;
         border-bottom: 1px solid darken($color: $vr-bg, $amount: 10%) ;
+       
 
         .rankig-item-section{
             display: flex;
