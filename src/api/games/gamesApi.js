@@ -1,6 +1,6 @@
 import axios from "axios";
 
-class rankingApi {
+class gamesApi {
   API_URL = "https://vrescapeback-production.up.railway.app"
 
   instance = axios.create({
@@ -11,12 +11,12 @@ class rankingApi {
     },
   })
 
-  getallRankings = async () => {
-    return await this.instance.get(`${this.API_URL}/api/ranking`)
+  getallGames = async () => {
+    return await this.instance.get(`${this.API_URL}/api/game`)
   }
 
   isAxiosError = (error) => axios.isAxiosError(error)
 
 }
 
-export default rankingApi
+export default gamesApi

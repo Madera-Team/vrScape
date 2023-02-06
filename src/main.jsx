@@ -1,12 +1,15 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import { BrowserRouter } from 'react-router-dom'
-import { AppRouter } from './router/Router'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
+import { RankingProvider } from "./context/ranking";
+import { AppRouter } from "./router/Router";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
-  <AppRouter/>
-    </BrowserRouter>
+    <RankingProvider>
+      <BrowserRouter>
+        <AppRouter />
+      </BrowserRouter>
+    </RankingProvider>
   </React.StrictMode>
-)
+);

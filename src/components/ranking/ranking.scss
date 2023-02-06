@@ -5,33 +5,66 @@
     width: 80%;
     max-width: 1450px;
     margin: 2em auto;
-    justify-content: space-around;
+    justify-content: center;
     align-items: flex-start;
+
+    .ranking-content{
+        background-color: #fff;
+        border-radius: 12px;
+        width: 250px;
+        height: 400px;
+        padding: 1em;
+        margin:0 3em;
+    }
+    .ranking-item-header{
+        height: 100px;
+        width: calc(100% + 2em);
+        margin: -1em 0 1.5em -1em;
+        background-position: center;
+        background-size: cover;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h2{
+            color: #fff;
+        }
+    }
    
     .rankig-item{
-        width: 250px;
-        height: 220px;
-        padding: 1em;
-        border-radius: 12px;
-        background-color: $vr-pale-violet;
+        width: 100%;
+        padding: 0 0.3em;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items:  flex-start;
-        margin-bottom: 1em;
-
-        .ranking-item-header{
-            height: 100px;
-            width: calc(100% + 2em);
-            margin: -1em 0 auto -1em;
-            background-position: center;
-            background-size: cover;
-        }
+        margin: 0.6em 0;
+        padding-bottom: 0.6em;
+        border-bottom: 1px solid darken($color: $vr-bg, $amount: 10%) ;
 
         .rankig-item-section{
-            margin-bottom: 0.6em;
+            display: flex;
+            width: 100%;
+            position: relative;
+            padding-left: 1.2em;
 
-            
+            .medal{
+                position: absolute;
+                left: -0.5em;
+                top: -0.2em;
+            }
+            span{
+                width: 60%;
+                font-weight: bold;
+
+                &:nth-child(3){
+                    width: 30%;
+                    color: lighten($color: $vr-medium-violet, $amount: 30%)
+                    
+                }
+            }
         }
     }
 }

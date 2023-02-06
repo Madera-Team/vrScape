@@ -1,7 +1,7 @@
-import rankingApi from "./rankingApi";
+import gamesApi from "./gamesApi";
 
-export const getRankings = async () => {
-  const APIinstance = new rankingApi();
+export const getGames = async () => {
+  const APIinstance = new gamesApi();
 
   try {
 

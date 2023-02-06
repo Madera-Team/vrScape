@@ -1,21 +1,25 @@
 import React from 'react'
+import { Medal } from './medalSvg/Medal'
 
-export const RankingItem = ({ranking}) => {
+export const RankingItem = ({ranking,index}) => {
   return (
     <div  className='rankig-item'>
-        <section className="ranking-item-header" style={{backgroundImage : `url(/public/assets/img/${ranking.gameId}.png)`}}></section>
-       <div className='rankig-item-section'>
+       {/* <div className='rankig-item-section'>
         <b>Game:</b>
         <span> {ranking.gameId}</span>
-       </div>
+       </div> */}
 
-       <div className='rankig-item-section'>
+       {/* <div className='rankig-item-section'>
         <b>User:</b>
         <span> {ranking.username}</span>
-       </div>
+       </div> */}
 
        <div className='rankig-item-section'>
-        <b>Time:</b>
+        {/* <b>Time:</b> */}
+        <div className="medal">
+          <Medal position = {index}/>
+        </div>
+        <span> {ranking.username}</span>
         <span> {ranking.time} min</span>
        </div>
     </div>
