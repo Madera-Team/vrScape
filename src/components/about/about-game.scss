@@ -3,7 +3,7 @@
 .about-game-cont {
     background-color: #b6bfe6;
     background-color: $vr-dark-violet;
-    padding: 2em 0 12em 0;
+    padding: 2em 0 15em 0;
     margin-top: -2em;
     z-index: 3;
     position: relative;
@@ -26,7 +26,7 @@
         justify-content: flex-end;
         align-items: center;
         flex-direction: column;
-        width:450px;
+        width:480px;
         margin: 2em auto 0 auto;
         h1 {
             text-transform: uppercase;
@@ -34,22 +34,22 @@
             color: #fff;
             z-index: 2;
 
-            &::before {
-                content: "";
-                position: absolute;
-                background-color: rgb(156, 156, 238);
-                width: 150px;
-                height: 100px;
-               // transform: rotate(5deg);
-                left: -50px;
-                top: -100px;
-            }
+            // &::before {
+            //     content: "";
+            //     position: absolute;
+            //     background-color: rgb(156, 156, 238);
+            //     width: 150px;
+            //     height: 100px;
+            //    // transform: rotate(5deg);
+            //     left: -50px;
+            //     top: -100px;
+            // }
         }
 
         img{
             position: absolute;
             width: 380px;
-            left: -300px;
+            left: -330px;
             top: -4em;
         }
 

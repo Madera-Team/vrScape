@@ -1,4 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
+import { Footer } from '../components/shared/footer/Footer';
 import { Header } from '../components/shared/header/Header';
 import { Menu } from '../components/shared/menu/Menu';
 import { Documentation } from '../pages/documentation/Documentation';
@@ -18,7 +19,7 @@ export const AppRouter = () => {
             
 
         </Routes>
-    
+    <Footer/>
     </>
   )
 }
