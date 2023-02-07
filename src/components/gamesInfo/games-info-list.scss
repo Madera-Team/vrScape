@@ -1,0 +1,58 @@
+@import "../../styles/common/setting.scss";
+
+.games-info-cont{
+   
+    width: 100%;
+    background-color: #cbcbde;
+    padding: 100px 0;
+    .game-info-content{
+        position: relative;
+        max-width: 900px;
+        margin: auto;
+        cursor: pointer;
+        overflow: hidden;
+        margin-top: 2em;
+
+        h2{
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 1em;
+        }
+     
+        p{
+            position: absolute;
+            bottom: 0;
+            background-color: #fff;
+            border-bottom-left-radius: 12px;
+            border-bottom-right-radius: 12px;
+            padding: 2em 1em 4em 1em;
+            transform: translateY(100%);
+            transition: transform 0.6;
+        }
+    
+        img{
+            width: 100%;
+            border-radius: 12px;
+        }
+
+        &:hover{
+            p{
+                animation: textAppear 1s forwards ;
+            }
+        }
+    }
+
+
+}
+
+@keyframes textAppear {
+
+    0%{
+        transform: translateY(100%); 
+    }
+    
+    100%{
+        transform: translateY(0); 
+    }
+    
+}

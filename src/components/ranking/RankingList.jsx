@@ -24,7 +24,7 @@ export const RankingList = () => {
   return (
     <>
    
-      <section className="ranking-cont">
+      <section id="ranking" className="ranking-cont">
         {ranking.map((ranking, index) => (
           <div className="ranking-content" key={index}>
             <section

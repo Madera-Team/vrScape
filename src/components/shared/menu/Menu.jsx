@@ -20,6 +20,7 @@ export const Menu = () => {
                     <p>FAQ</p>
                 </NavLink>
             </div>
+        
             <div className="menu-link">
                 <NavLink to="/home">
                     <p>TRY IT!</p>

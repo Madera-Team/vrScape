@@ -1,4 +1,5 @@
-import React from 'react'
+import { Link, NavLink, useNavigate } from 'react-router-dom';
+
 import './header.scss';
 
 export const Header = () => {
@@ -12,7 +13,15 @@ export const Header = () => {
     <h1>VR Escape</h1>
     <div className="btn-cont">
         <button>TRAILER</button>
-        <button>ABOUT US</button>
+         
+        <button>
+          {/* <Link to="#about">
+            ABOUT US
+          </Link> */}
+          <a href="#about">ABOUT US</a>
+        </button>
+       
+        
     </div>
 </div>
 

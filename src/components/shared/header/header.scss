@@ -50,6 +50,11 @@
                 &:hover{
                     background-color: lighten($color: $vr-secundary-dark, $amount: 3%);
                 }
+
+                a{
+                    color: #fff;
+                    text-decoration: none;
+                }
             }
         }
     }
