@@ -22,7 +22,7 @@ export const GamesInfoList = () => {
         {
             gameName : "The Tale",
             gameDescription: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo repellendus reiciendis nihil corporis quo quidem, excepturi, doloremque, ipsum deserunt id voluptate nostrum? Quae tempora totam, ipsam officiis, quasi quam quod alias voluptatibus minus voluptas quas. Veritatis numquam est enim neque aperiam fugiat? Expedita beatae iste quidem minima debitis! Autem, dicta!",
-            gameImage : "the_school_01.png"
+            gameImage : "the_tale_01.png"
 
         }
     ]

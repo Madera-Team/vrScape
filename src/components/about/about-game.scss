@@ -63,11 +63,21 @@
             border-radius: 99px;
             cursor: pointer;
             width: 200px;
-            margin-top: 2em;
+            
 
             &:hover{
                 background-color:rgba($color: #fff, $alpha: 0.1) ;
             }
+        }
+        a {
+          align-self: flex-end;
+           margin-top: 2em;
+            color: #fff;
+            font-weight: bold;
+            height: 55px;
+            border-radius: 99px;
+            cursor: pointer;
+            width: 200px;
         }
     }
 }

@@ -1,4 +1,4 @@
-import { Link, NavLink, useNavigate } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './menu.scss'
 
 
@@ -15,6 +15,12 @@ export const Menu = () => {
             </div>
             </div>
             <div className="menu-right">
+            <div className="menu-link">
+                <NavLink to="/games">
+                    <p>GAMES</p>
+                </NavLink>
+            </div>
+        
             <div className="menu-link">
                 <NavLink to="/documentation">
                     <p>FAQ</p>

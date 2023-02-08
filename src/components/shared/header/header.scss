@@ -14,6 +14,7 @@
     background-size: cover;
     background-position: center top;
     background-attachment: fixed;
+  //  animation: bgAnimation 20s alternate-reverse infinite ease;
     .menu-cont{
         position: absolute;
         top: 0;
@@ -37,7 +38,7 @@
             margin-top: 1em;
             justify-content: space-between;
             button{
-                width: calc(50% - 20px);
+                width: 280px;
                 height: 55px;
                 border-radius: 99px;
                 background-color: $vr-secundary-dark;
@@ -50,14 +51,32 @@
                 &:hover{
                     background-color: lighten($color: $vr-secundary-dark, $amount: 3%);
                 }
+              
+            }
 
-                a{
-                    color: #fff;
-                    text-decoration: none;
-                }
+            a{
+                color: #fff;
+                text-decoration: none;
+                width: 280px;
             }
         }
     }
 
    
+}
+
+@keyframes bgAnimation {
+    0%{
+        background-image: linear-gradient(to bottom, rgba(115, 171, 171, 0.33) 0%, rgba(152, 124, 186, 0.74) 100%),url(assets/img/header/1.png);
+    }
+
+    60%{
+    
+        background-image: linear-gradient(to bottom, rgba(115, 171, 171, 0.33) 0%, rgba(152, 124, 186, 0.74) 100%),url(assets/img/header/2.png);
+    }
+
+    100%{
+      
+        background-image: linear-gradient(to bottom, rgba(115, 171, 171, 0.33) 0%, rgba(152, 124, 186, 0.74) 100%),url(assets/img/header/4.png);
+    }
 }

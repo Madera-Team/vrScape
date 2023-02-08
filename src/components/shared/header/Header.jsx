@@ -7,7 +7,7 @@ export const Header = () => {
     <>
     <section className="header-cont"
     style={{
-      backgroundImage: "linear-gradient(to bottom, rgba(115, 171, 171, 0.33) 0%, rgba(152, 124, 186, 0.74) 100%),url(assets/img/1.png)"
+      backgroundImage: "linear-gradient(to bottom, rgba(115, 171, 171, 0.33) 0%, rgba(152, 124, 186, 0.74) 100%),url(assets/img/header/1.png)"
     }}
     >
    
@@ -17,14 +17,15 @@ export const Header = () => {
     <h1>VR Escape</h1>
     <div className="btn-cont">
         <button>TRAILER</button>
-         
+        
+        <a href="#about">
         <button>
           {/* <Link to="#about">
             ABOUT US
           </Link> */}
-          <a href="#about">ABOUT US</a>
+          ABOUT US
         </button>
-       
+        </a>
         
     </div>
 </div>

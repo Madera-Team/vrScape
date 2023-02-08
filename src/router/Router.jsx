@@ -1,4 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
+import { GamesInfoList } from '../components/gamesInfo/GamesInfoList';
 import { Footer } from '../components/shared/footer/Footer';
 import { Header } from '../components/shared/header/Header';
 import { Menu } from '../components/shared/menu/Menu';
@@ -12,7 +13,8 @@ export const AppRouter = () => {
         <Routes>
             
             <Route path="documentation" element={<Documentation />} />
-            
+
+            <Route path="games" element={<GamesInfoList />} />
             
             <Route path="/*" element={ <Home />} />
             

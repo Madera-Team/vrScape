@@ -1,8 +1,13 @@
-// @import "../../styles/common/setting.scss";
 @import "../../../styles/common/setting.scss";
 
 .footer-cont{
     background-color: $vr-dark-violet;
     width: 100%;
-    padding: 4em;
+    padding: 3em 0;
+
+    h4{
+        text-align: center;
+        color: rgba(255, 255, 255, 0.747);
+        font-weight: 400;
+    }
 }

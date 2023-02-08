@@ -12,6 +12,7 @@
         cursor: pointer;
         overflow: hidden;
         margin-top: 2em;
+        border-radius: 12px;
 
         h2{
             text-transform: uppercase;
@@ -27,7 +28,9 @@
             border-bottom-right-radius: 12px;
             padding: 2em 1em 4em 1em;
             transform: translateY(100%);
+           // background-color: rgba($color: #302642, $alpha: 0.3);
             transition: transform 0.6;
+           // color: #fff;
         }
     
         img{

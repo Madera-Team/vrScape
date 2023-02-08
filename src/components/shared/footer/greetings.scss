@@ -1,0 +1,78 @@
+@import "../../../styles/common/setting.scss";
+
+.greetings-cont{
+    padding: 3em 0;
+    //background-color: #cbcbde;
+
+    .greeting-title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2em;
+
+        h1{
+            text-align: center;
+          
+            font-family: "RobotoRegular";
+            font-weight: 400;
+            color: #bcbcc9;
+            text-transform: uppercase;
+        }
+
+        svg{
+            height: 60px;
+
+            &:first-child{
+                transform: rotate(180deg) translateY(-10px);
+            }
+        }
+    }
+
+    .greetings-text{
+        max-width: 800px;
+        margin: auto;
+        text-align: center;
+        color: #a2a2aa;
+        margin-bottom: 5em;
+    }
+
+    .attributions-cont{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 800px;
+        margin: auto;
+        flex-wrap: wrap;
+
+        .attribution-item{
+            width: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 2em;
+            a, h4{
+                color: #a2a2aa;
+                text-align: center;
+            }
+
+            h4{
+                font-weight: 400;
+                font-style: italic;
+            }
+
+            a{
+                font-size: 18px;
+                font-weight: bold;
+                text-decoration: none;
+                color: #616168;
+
+                &:hover{
+                    color: lighten($color: $vr-medium-violet, $amount: 10%);
+                }
+            }
+
+        }
+    }
+   
+}
