@@ -5,7 +5,7 @@ export const GameInfoItem = ({game}) => {
     <>
    <div className="game-info-content">
    <h2>{game?.gameName}</h2>
-    <img src={`/public/assets/img/screenshoots/${game?.gameImage}`} alt="" />
+    <img src={`./public/assets/img/screenshoots/${game?.gameImage}`} alt="" />
     <p>{game?.gameDescription}</p>
    </div>
     </>
