@@ -30,7 +30,7 @@ export const RankingList = () => {
             <section
               className="ranking-item-header"
               style={{
-                backgroundImage: `linear-gradient(to bottom, rgba(115, 171, 171, 0.33) 0%, rgba(152, 124, 186, 0.54) 100%),url(./public/assets/img/${ranking.gameRanking.gameId}.png)`,
+                backgroundImage: `linear-gradient(to bottom, rgba(115, 171, 171, 0.33) 0%, rgba(152, 124, 186, 0.54) 100%),url(assets/img/${ranking.gameRanking.gameId}.png)`,
               }}
             >
               <h2>{ranking.gameRanking.gameName}</h2>

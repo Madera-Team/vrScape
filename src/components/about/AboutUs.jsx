@@ -36,7 +36,7 @@ export const AboutUs = () => {
 
       {magicProgrammers.map((programmer, index) => (
         <section key={index} className="portrait">
-          <img src={`./public/assets/img/portraits/${programmer.img}`} alt="" />
+          <img src={`assets/img/portraits/${programmer.img}`} alt="" />
           <div className="text-cont">
             <h3>{programmer.name}</h3>
             <p>{programmer.description}</p>
