@@ -1,28 +1,48 @@
-@import '../../../styles/common/setting.scss';
+@import "../../../styles/common/setting.scss";
 
-.faq-cont{
+.faq-cont {
     width: 90%;
-    max-width:650px;
-    margin:2em auto 8em auto;
+    max-width: 650px;
+    margin: 2em auto 8em auto;
 
-    .faq-question{
+    .faq-question {
         display: flex;
         position: relative;
         padding: 1em 1em 1em 0.5em;
-        border-bottom: 2px solid lighten($color: #6B6B78, $amount: 42%);
+        border-bottom: 2px solid lighten($color: #6b6b78, $amount: 42%);
         cursor: pointer;
-        h3{
 
-            color: #6B6B78;
+        h3 {
+            color: #6b6b78;
         }
 
-        svg{
+        svg {
             position: absolute;
             right: 0.5em;
         }
+
+        &:hover {
+            svg {
+                fill: lighten($color: $vr-medium-violet, $amount: 20%) !important;
+            }
+            h3 {
+                color: lighten($color: $vr-medium-violet, $amount: 20%);
+            }
+        }
+
+        &.selected {
+            border-bottom: 2px solid lighten($color: $vr-medium-violet, $amount: 20%);
+
+            svg {
+                fill: lighten($color: $vr-medium-violet, $amount: 20%) !important;
+            }
+            h3 {
+                color: lighten($color: $vr-medium-violet, $amount: 20%);
+            }
+        }
     }
 
-    .faq-answer{
+    .faq-answer {
         padding: 0.5em;
     }
 }

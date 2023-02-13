@@ -20,7 +20,7 @@
         background-color: #fff;
         border-radius: 12px;
         width: 250px;
-        height: 400px;
+        height: 405px;
         padding: 1em;
         margin:0 3em;
         box-shadow: 0px 4px 20px rgba(82, 76, 192, 0.315);
@@ -52,6 +52,10 @@
         margin: 0.6em 0;
         padding-bottom: 0.6em;
         border-bottom: 1px solid darken($color: $vr-bg, $amount: 10%) ;
+
+        &:last-child{
+            border-bottom: none;
+        }
        
 
         .rankig-item-section{
@@ -68,10 +72,18 @@
             span{
                 width: 60%;
                 font-weight: bold;
+                white-space:nowrap;
+                overflow:hidden;
+                text-overflow: ellipsis;
+            
 
                 &:nth-child(3){
-                    width: 30%;
+                    width: 40%;
                     color: lighten($color: $vr-medium-violet, $amount: 30%)
+                    
+                }
+                &:nth-child(2){
+                  margin-right: 0.5em;
                     
                 }
             }

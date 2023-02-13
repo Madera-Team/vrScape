@@ -23,7 +23,7 @@ export const Faqs = () => {
       {
         faqsArray.map((faq, index)=>(
             <div key={index} className="faq-content">
-                <div className="faq-question" key={index}
+                <div className={ faq.id === faqSelected ? 'faq-question selected' : 'faq-question'} key={index}
                 onClick={()=>handleFaqSelected(faq.id)}
                 >
                   <h3>

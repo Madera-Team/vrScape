@@ -36,7 +36,7 @@ export const RankingList = () => {
               <h2>{ranking.gameRanking.gameName}</h2>
             </section>
             {ranking.rankings.map((item, index) => (
-              <RankingItem key={index} index={index} ranking={item} />
+              index<7 && <RankingItem key={index} index={index} ranking={item} />
             ))}
           </div>
         ))}

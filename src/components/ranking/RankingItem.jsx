@@ -17,7 +17,9 @@ export const RankingItem = ({ranking,index}) => {
        <div className='rankig-item-section'>
         {/* <b>Time:</b> */}
         <div className="medal">
-          <Medal position = {index}/>
+         {
+          index <3 &&  <Medal position = {index}/>
+         }
         </div>
         <span> {ranking.username}</span>
         <span> {ranking.time} min</span>

@@ -27,11 +27,11 @@ export const Menu = () => {
                 </NavLink>
             </div>
         
-            <div className="menu-link">
+            {/* <div className="menu-link">
                 <NavLink to="/home">
                     <p>TRY IT!</p>
                 </NavLink>
-            </div>
+            </div> */}
             </div>
         </section>
         </>
