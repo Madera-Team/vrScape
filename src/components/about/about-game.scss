@@ -81,3 +81,46 @@
         }
     }
 }
+
+
+@media (max-width: 1000px) {
+
+    .about-game-cont{
+        .about-game-content{
+
+            width: 80%;
+            justify-content: center;
+            img{
+                display: none;
+            }
+
+            h1{
+                width: 80%;
+            }
+
+            a{
+                align-self: center;
+            }
+        }
+
+        padding: 2em 0 8em 0;
+    }
+ 
+ }
+@media (max-height: 700px) {
+
+    .about-game-cont{
+        .about-game-content{
+            img{
+                display: none;
+            }
+        }
+
+        padding: 6em 0 8em 0;
+
+        &::after{
+            content: none;
+        }
+    }
+ 
+ }

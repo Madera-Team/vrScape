@@ -80,3 +80,24 @@
         background-image: linear-gradient(to bottom, rgba(115, 171, 171, 0.33) 0%, rgba(152, 124, 186, 0.74) 100%),url(assets/img/header/4.png);
     }
 }
+
+@media (max-width: 1000px) {
+   .header-cont{
+    .header-content{
+        .btn-cont{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            button{
+              margin-top: 1em;
+            }
+        }
+
+        h1{
+            font-size: 55px;
+        }
+    }
+   }
+
+}

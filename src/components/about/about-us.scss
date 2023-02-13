@@ -62,3 +62,29 @@
         width: 350px;
     }
 }
+
+
+@media (max-height: 1000px) {
+
+    .about-us-cont{
+        .about-us-title{
+            margin-bottom: 0.5em;
+        }
+        .portrait{
+            flex-direction: column;
+           .text-cont{
+            .social-cont {
+                align-self: flex-start;
+            }
+           }
+            
+    &:nth-child(3) {
+        flex-direction: column;
+
+       
+    }
+        }
+    }
+
+ 
+ }
