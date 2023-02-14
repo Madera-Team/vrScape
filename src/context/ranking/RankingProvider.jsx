@@ -41,7 +41,7 @@ export const RankingProvider = ({ children }) => {
       switch(ranking.gameId){
         case 1:
           game1Rankings.push(ranking)
-          console.log(ranking.time + ' / ' + ranking.time.split(':').join(''))
+          //console.log(ranking.time + ' / ' + ranking.time.split(':').join(''))
     
           break;
         case 2:
