@@ -10,7 +10,9 @@ export const Menu = () => {
             <div className="menu-left">
             <div className="menu-link">
                 <NavLink to="/home">
-                    <p>Home</p>
+                    <p>
+                        <img src="assets/small_white_lineal.svg" alt="" />
+                    </p>
                 </NavLink>
             </div>
             </div>

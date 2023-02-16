@@ -41,6 +41,7 @@ export const RankingProvider = ({ children }) => {
       switch(ranking.gameId){
         case 1:
           game1Rankings.push(ranking)
+          //console.log(ranking.time + ' / ' + ranking.time.split(':').join(''))
     
           break;
         case 2:
@@ -62,21 +63,21 @@ export const RankingProvider = ({ children }) => {
           gameId: 1,
           gameName: 'The School'
         },
-        rankings: game1Rankings.sort((a, b)=> a.time - b.time)
+        rankings: game1Rankings.sort((a, b)=> a.time.split(':').join('') - b.time.split(':').join(''))
       },
       {
         gameRanking : {
           gameId: 2,
           gameName: 'The maths'
         } ,
-        rankings: game2Rankings.sort((a, b)=> a.time - b.time)
+        rankings: game2Rankings.sort((a, b)=> a.time.split(':').join('') - b.time.split(':').join(''))
       },
       {
         gameRanking :{
           gameId: 3,
           gameName: 'The tale'
         } ,
-        rankings: game3Rankings.sort((a, b)=> a.time - b.time)
+        rankings: game3Rankings.sort((a, b)=> a.time.split(':').join('') - b.time.split(':').join(''))
       }
     ]
 
