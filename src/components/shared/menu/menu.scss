@@ -53,11 +53,17 @@
             outline: none;
             width: 30px;
             height: 30px;
-            margin: 10px 0 0 10px;
-            
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            transition: position 0.6s;
 
             &:hover, :active, :focus{
                 outline: none;
+            }
+
+            &.close{
+                left: calc(100% - 50px);
             }
         }
     }
@@ -71,7 +77,7 @@
         justify-content: flex-start;
         align-items: center;
         background-color: $vr-dark-violet;
-        padding: 50px 0 0 0;
+        padding: 100px 0 0 0;
 
         .menu-right {
             display: flex;

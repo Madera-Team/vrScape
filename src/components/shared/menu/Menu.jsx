@@ -55,8 +55,9 @@ export const Menu = () => {
         <>
           {/* mobile */}
           <div className="hamburguer-cont">
-            <button onClick={handleMenuVisible}>
-                <Hamburguer/>
+            <button className={menuVisible && 'close' }
+            onClick={handleMenuVisible}>
+                <Hamburguer open={menuVisible}/>
             </button>
           </div>
           {menuVisible && (
