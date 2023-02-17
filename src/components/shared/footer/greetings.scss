@@ -8,7 +8,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: 2em;
+        width: 80%;
+        margin: 0 auto 2em auto;
 
         h1{
             text-align: center;
@@ -30,6 +31,7 @@
 
     .greetings-text{
         max-width: 800px;
+        width: 80%;
         margin: auto;
         text-align: center;
         color: #a2a2aa;
@@ -41,6 +43,7 @@
         justify-content: center;
         align-items: center;
         max-width: 800px;
+        width: 80%;
         margin: auto;
         flex-wrap: wrap;
 

@@ -87,4 +87,19 @@
     }
 
  
- }
+}
+
+
+@media (max-width: 500px) {
+   .about-us-cont{
+    img{
+        width: 80%;
+    }
+
+    .portrait{
+        .text-cont{
+            width: 80%;
+        }
+    }
+   }
+}
