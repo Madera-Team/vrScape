@@ -8,6 +8,7 @@
     .game-info-content{
         position: relative;
         max-width: 900px;
+        width: 80%;
         margin: auto;
         cursor: pointer;
         overflow: hidden;
@@ -59,3 +60,38 @@
     }
     
 }
+
+@media (max-width: 1000px) {
+    .games-info-cont{
+    
+        .game-info-content{
+            p{
+                position: static;
+                animation: none;
+                transform: translateY(0);
+                margin-top: -2em;
+                padding: 2em 1em ;
+            }
+
+            &:hover{
+                p{
+                    animation:none;
+                }
+            }
+        }
+    }
+    
+ }
+
+@media (max-width: 500px) {
+    .games-info-cont{
+    
+        .game-info-content{
+            p{
+              font-size: 14px;
+            }
+
+        }
+    }
+    
+ }

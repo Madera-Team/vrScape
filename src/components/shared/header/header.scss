@@ -1,6 +1,6 @@
-@import '../../../styles/common/setting.scss';
+@import "../../../styles/common/setting.scss";
 
-.header-cont{
+.header-cont {
     height: 100vh;
     width: 100%;
     display: flex;
@@ -10,39 +10,40 @@
     position: relative;
     // background-image: linear-gradient(to bottom, rgba(48, 208, 208, 0.329) 0%, rgba(51, 8, 103, 0.74) 100%), url("/public/assets/img/1.png");
     // background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/public/assets/img/1.png");
-   // background-image: linear-gradient(to bottom, rgba(115, 171, 171, 0.33) 0%, rgba(152, 124, 186, 0.74) 100%), url("./assets/img/1.png");
+    // background-image: linear-gradient(to bottom, rgba(115, 171, 171, 0.33) 0%, rgba(152, 124, 186, 0.74) 100%), url("./assets/img/1.png");
     background-size: cover;
     background-position: center top;
     background-attachment: fixed;
-  //  animation: bgAnimation 20s alternate-reverse infinite ease;
-    .menu-cont{
+    //  animation: bgAnimation 20s alternate-reverse infinite ease;
+    overflow-x: hidden;
+    .menu-cont {
         position: absolute;
         top: 0;
         left: 0;
     }
 
-    .header-content{
+    .header-content {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 600px;
-        h1{
+        h1 {
             color: #fff;
-            font-size:6vw;
+            font-size: 6vw;
         }
 
-        .logo{
+        .logo {
             height: 250px;
             margin-bottom: 10px;
         }
-    
-        .btn-cont{
+
+        .btn-cont {
             width: 100%;
             display: flex;
             margin-top: 1em;
             justify-content: space-between;
-            button{
+            button {
                 width: 280px;
                 height: 55px;
                 border-radius: 99px;
@@ -53,61 +54,58 @@
                 font-weight: bold;
                 cursor: pointer;
 
-                &:hover{
+                &:hover {
                     background-color: lighten($color: $vr-secundary-dark, $amount: 3%);
                 }
-              
             }
 
-            a{
+            a {
                 color: #fff;
                 text-decoration: none;
                 width: 280px;
             }
         }
     }
-
-   
 }
 
 @keyframes bgAnimation {
-    0%{
-        background-image: linear-gradient(to bottom, rgba(115, 171, 171, 0.33) 0%, rgba(152, 124, 186, 0.74) 100%),url(assets/img/header/1.png);
+    0% {
+        background-image: linear-gradient(to bottom, rgba(115, 171, 171, 0.33) 0%, rgba(152, 124, 186, 0.74) 100%),
+            url(assets/img/header/1.png);
     }
 
-    60%{
-    
-        background-image: linear-gradient(to bottom, rgba(115, 171, 171, 0.33) 0%, rgba(152, 124, 186, 0.74) 100%),url(assets/img/header/2.png);
+    60% {
+        background-image: linear-gradient(to bottom, rgba(115, 171, 171, 0.33) 0%, rgba(152, 124, 186, 0.74) 100%),
+            url(assets/img/header/2.png);
     }
 
-    100%{
-      
-        background-image: linear-gradient(to bottom, rgba(115, 171, 171, 0.33) 0%, rgba(152, 124, 186, 0.74) 100%),url(assets/img/header/4.png);
+    100% {
+        background-image: linear-gradient(to bottom, rgba(115, 171, 171, 0.33) 0%, rgba(152, 124, 186, 0.74) 100%),
+            url(assets/img/header/4.png);
     }
 }
 
 @media (max-width: 1000px) {
-   .header-cont{
-    .header-content{
-        .btn-cont{
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+    .header-cont {
+        .header-content {
+            .btn-cont {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
 
-            button{
-              margin-top: 1em;
+                button {
+                    margin-top: 1em;
+                }
+            }
+
+            h1 {
+                font-size: 55px;
+            }
+
+            .logo {
+                height: 160px;
+                margin-bottom: 10px;
             }
         }
-
-        h1{
-            font-size: 55px;
-        }
-
-        .logo{
-            height: 160px;
-            margin-bottom: 10px;
-        }
     }
-   }
-
 }

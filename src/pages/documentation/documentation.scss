@@ -1,12 +1,11 @@
-.oculus-control-color{
+.oculus-control-color {
     stroke: #fff;
-  
 }
-.oculus-control-color-fill{
+.oculus-control-color-fill {
     fill: #fff;
 }
 
-.control-info-cont{
+.control-info-cont {
     background-image: linear-gradient(to bottom, rgb(115, 171, 171) 0%, rgb(152, 124, 186) 100%);
     display: flex;
     flex-direction: column;
@@ -14,11 +13,11 @@
     align-items: center;
     padding: 50px 0 80px 0;
 
-    svg{
+    svg {
         width: 90%;
     }
 
-    .oculus-control-title{
+    .oculus-control-title {
         width: 80%;
         margin: 1em auto 2em auto;
         text-align: center;
@@ -26,7 +25,18 @@
     }
 }
 
-.faq-title{
-        text-align: center;
-        margin: 4em auto 0 auto;
+.faq-title {
+    text-align: center;
+    margin: 4em auto 0 auto;
+}
+
+@media (max-width: 500px) {
+    .control-info-cont {
+        padding: 50px 0 0 0;
+
+        svg {
+            position: relative;
+            top: -100px;
+        }
+    }
 }
