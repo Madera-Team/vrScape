@@ -17,7 +17,10 @@ export const Header = () => {
     {/* <h1>VR Escape</h1> */}
     <img className='logo' src="assets/logo_white.svg" alt="" />
     <div className="btn-cont">
-        <button>TRAILER</button>
+        <a href="https://youtu.be/iN0fYMNy55o" target="_blank">
+            <button>TRAILER</button>
+        </a>
+      
         
         <a href="#about">
         <button>
