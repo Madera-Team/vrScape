@@ -9,7 +9,7 @@ export const AboutUs = () => {
       name: "Abigail Ojeda Alonso",
       description:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo repellendus reiciendis nihil corporis quo quidem, excepturi, doloremque, ipsum deserunt id voluptate nostrum? Quae tempora totam, ipsam officiis, quasi quam quod alias voluptatibus minus voluptas quas. Veritatis numquam est enim neque aperiam fugiat? Expedita beatae iste quidem minima debitis! Autem, dicta!",
-      img: "laura2.svg",
+      img: "abi.svg",
       linkedin: "https://es.linkedin.com/in/abigail-ojeda",
       github: "https://github.com/abigailojeda",
     },
@@ -25,7 +25,7 @@ export const AboutUs = () => {
       name: "Irene Marrero Ruiz ",
       description:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo repellendus reiciendis nihil corporis quo quidem, excepturi, doloremque, ipsum deserunt id voluptate nostrum? Quae tempora totam, ipsam officiis, quasi quam quod alias voluptatibus minus voluptas quas. Veritatis numquam est enim neque aperiam fugiat? Expedita beatae iste quidem minima debitis! Autem, dicta!",
-      img: "laura2.svg",
+      img: "Irene.svg",
       linkedin: "https://es.linkedin.com/in/iremaru",
       github: "https://github.com/iremaru",
     },

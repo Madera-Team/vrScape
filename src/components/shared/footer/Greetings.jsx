@@ -10,8 +10,8 @@ export const Greetings = () => {
             link: "https://assetstore.unity.com/packages/vfx/shaders/free-skybox-extended-shader-107400#content"
         },
         {
-            title:"FREE Skybox Extended Shader",
-            name: "BOXOPHOBIC",
+            title:"Super Rubber Duck Pack",
+            name: "Samer Khatib (Snowconesolid Productions) LLC",
             link: "https://assetstore.unity.com/packages/vfx/shaders/free-skybox-extended-shader-107400#content"
         },
         {
